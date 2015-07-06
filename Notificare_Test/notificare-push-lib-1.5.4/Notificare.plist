@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEVELOPMENT_APP_KEY</key>
+	<string>be5178d4e216ee14f33c59d68d56a61e99838bfb09e0fa1d1cb4fe23888985f1</string>
+	<key>DEVELOPMENT_APP_SECRET</key>
+	<string>07a4c66119f5b7d0c88702495ccea0829942c48314c1bbceb3c3e1283e30930a</string>
+	<key>PRODUCTION_APP_KEY</key>
+	<string>f77452fc1423381fe9baaf5e2543a80ae183ebf0678cbe30b88ad3e3343a0532</string>
+	<key>PRODUCTION_APP_SECRET</key>
+	<string>cacd694b2215198c911b0a651c29e3521e2a03b97fb711899aadb59518e9d460</string>
+	<key>DEVELOPMENT</key>
+	<true/>
+	<key>RESOURCE_BUNDLE</key>
+	<string>DefaultTheme.bundle</string>
+	<key>OPTIONS</key>
+	<dict>
+		<key>APP_RUNS_ON_BACKGROUND</key>
+		<false/>
+		<key>IMAGES_SHARING</key>
+		<true/>
+		<key>BACKGROUND_COLOR</key>
+		<string>FFFFFF</string>
+		<key>TOOLBAR_COLOR</key>
+		<string>FFFFFF</string>
+		<key>NAVBAR_COLOR</key>
+		<string>FFFFFF</string>
+		<key>ACTIVITY_INDICATOR_COLOR</key>
+		<string>000000</string>
+		<key>TITLE_COLOR</key>
+		<string>000000</string>
+		<key>BUTTONS_TEXT_COLOR</key>
+		<string>000000</string>
+		<key>TEXTFIELD_TEXT_COLOR</key>
+		<string>000000</string>
+		<key>TEXTFIELD_BACKGROUND_COLOR</key>
+		<string>E5E5EA</string>
+	</dict>
+</dict>
+</plist>

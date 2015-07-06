@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "NotificarePushLib.h"
+#import "Notificare.h"
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, NotificarePushLibDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

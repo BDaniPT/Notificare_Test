@@ -14,10 +14,31 @@
 
 @implementation ViewController
 
+//const double kMetersPerMile = 1609;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
+ 
+- (void)viewWillAppear:(BOOL)animated {
+    
+    /*
+     * In case we want to use a custom position as default, use this
+
+    CLLocationCoordinate2D zoomLocation;
+    
+    zoomLocation.latitude = 39.281516;
+    zoomLocation.longitude= -76.580806;
+    
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 0.5*kMetersPerMile, 0.5*kMetersPerMile);
+    
+    [_mapView setRegion:viewRegion animated:YES];
+     
+     */
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
